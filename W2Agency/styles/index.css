@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria/Geometria.otf');
+    font-weight: 700;
+
+}
+
+@font-face {
+    font-family: 'Geometria-Bold';
+    src: url('../fonts/Geometria/Geometria-Bold.otf');
+}
+
+
+body {
+    background-color: black;
+    font-size: 1.1vw !important;
+    font-family: 'Geometria';
+}
+
+a {
+    text-decoration: none;
+    /* font-size: 3.4vw; */
+}
+
+.res-fs {
+    font-size: 1.1vw;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* .bg-white header,
+section,
+footer {
+    padding: 1vw 0;
+} */
+
+.logo-cont {
+    width: 40%;
+    border-radius: 0 0 15% 15%;
+}
+
+.logo {
+    padding: 1.2vw 0 1.2vw 0;
+    width: 60%;
+    max-width: 70%;
+}
+
+.device-head {
+    display: none;
+}
+
+.head-title {
+    font-size: 3.5vw;
+    font-family: 'Geometria-Bold';
+    margin-bottom: 0;
+}
+
+.head-cont {
+    /* padding: 0; */
+    padding: 5% 2%;
+}
+
+.head-btn {
+    color: #671090;
+    font-size: 2vw;
+    font-family: 'Geometria-Bold';
+    border-radius: 25px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.img-head {
+    width: 140%;
+    max-width: 140%;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .img-head {
+        width: 120%;
+        max-width: 130%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .img-head {
+
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .desktop-head {
+        display: none;
+    }
+
+    .device-head {
+        display: block;
+    }
+
+    .logo-cont {
+        width: 30%;
+        border-radius: 0 0 15% 15%;
+    }
+
+    .logo {
+        padding: 1vw 0 1vw 0;
+        width: 60%;
+        max-width: 60%;
+    }
+
+    .menu-img {
+        max-width: 50%;
+    }
+
+    .list-group a {
+        font-size: 2vw;
+    }
+
+    .img-head {
+
+        max-width: 90%;
+    }
+
+}
